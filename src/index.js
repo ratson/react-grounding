@@ -19,3 +19,5 @@ class Grounding extends Headroom {
     this.pin()
   }
 }
+
+export default Grounding
