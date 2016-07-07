@@ -1,4 +1,5 @@
 import Headroom from 'react-headroom'
+import withProps from 'recompose/withProps'
 
 class Grounding extends Headroom {
   constructor(...args) {
@@ -20,4 +21,10 @@ class Grounding extends Headroom {
   }
 }
 
-export default Grounding
+export default withProps(({style}) => ({
+  style: {
+    ...style,
+    top: 'auto',
+    bottom: 0,
+  },
+}))(Grounding)
