@@ -11,21 +11,21 @@
     "test": "ava"
   },
   "dependencies": {
-    "react-headroom": "^2.1.0",
-    "recompose": "^0.20.2"
+    "react-headroom": "^2.1.5",
+    "recompose": "^0.23.1"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
-    "babel-cli": "^6.10.1",
-    "babel-eslint": "^6.1.0",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.11.1",
-    "babel-preset-stage-1": "^6.5.0",
-    "babel-register": "^6.9.0",
-    "eslint": "^2.13.1",
-    "npm-run-all": "^2.3.0",
-    "react": "^15.2.0",
-    "rimraf": "^2.5.3"
+    "ava": "^0.19.1",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "eslint": "^3.19.0",
+    "npm-run-all": "^4.0.2",
+    "react": "^15.5.4",
+    "rimraf": "^2.6.1"
   },
   "repository": "ratson/react-grounding",
   "license": "MIT",
