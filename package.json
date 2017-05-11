@@ -5,9 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "clean": "rimraf lib dist coverage",
+    "clean": "del lib dist coverage",
     "lint": "eslint .",
-    "prepublish": "npm-run-all clean build",
+    "prepublish": "run-s clean build",
     "test": "ava"
   },
   "dependencies": {
@@ -22,10 +22,10 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "babel-register": "^6.24.1",
+    "del-cli": "^1.0.0",
     "eslint": "^3.19.0",
     "npm-run-all": "^4.0.2",
-    "react": "^15.5.4",
-    "rimraf": "^2.6.1"
+    "react": "^15.5.4"
   },
   "repository": "ratson/react-grounding",
   "license": "MIT",
